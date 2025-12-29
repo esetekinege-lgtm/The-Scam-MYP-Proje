@@ -1,0 +1,13 @@
+<a href="https://github.com/esetekinege-lgtm/The-Scam-MYP-Proje/archive/refs/heads/main.zip" 
+   style="padding: 15px 25px; background-color: #00FF41; color: black; text-decoration: none; font-weight: bold; border-radius: 5px;">
+   OYUNU İNDİR (.ZIP)
+</a>
+function downloadGame() {
+    const zipUrl = 'https://C:\Users\USER\Downloads\the-scam.zip';
+    const link = document.createElement('a');
+    link.href = zipUrl;
+    link.download = 'the-scam.zip'; // İndirilen dosyanın adı
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
