@@ -3,7 +3,7 @@
    OYUNU İNDİR (.ZIP)
 </a>
 function downloadGame() {
-    const zipUrl = 'https://C:\Users\USER\Downloads\the-scam.zip';
+    const zipUrl = 'https://the-scam.zip';
     const link = document.createElement('a');
     link.href = zipUrl;
     link.download = 'the-scam.zip'; // İndirilen dosyanın adı
